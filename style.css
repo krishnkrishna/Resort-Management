@@ -1,0 +1,715 @@
+*{
+    margin:0;
+    padding:0;
+    font-family :'Poppins',sans-serif;
+}
+
+#home{
+    position:absolute;
+    top: 0;
+}
+
+#home-img {
+    width: 100%;
+    height: 70vh;
+    background-image: url(images/Home.webp);
+    background-size:cover;
+    background-position:center;
+}
+.logo{
+    position:absolute;
+    height:200px;
+    width:200px;
+    margin-left:20px;
+}
+nav{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    
+}
+
+.search{
+    height:23px;
+    border-radius:10px;
+    margin-top:20px;
+    width:150px;
+}
+
+
+.search-bar i {
+    position: absolute;
+    padding: 2px 2px;
+    transform: translateX(-120%);
+    pointer-events: none;
+    font-size:20px;
+    margin-top:20px;
+    color: #6d6e6b;
+}
+
+
+
+#login{
+    color:white;
+    background-color: red;
+    width:150px;
+    height:25px;
+    text-align: center;
+    border-radius:10px;
+    margin :20px 10px 0px 50px;
+
+}
+#login p{
+    height:100%;
+    margin-top:3px;
+}
+
+.menu{
+    display:flex;
+    flex-direction:row;
+    justify-content:flex-end;
+    margin-right:20px;
+    margin-top:20px;
+    font-size:30px;
+}
+
+#info{
+    color:white;
+    margin-top:200px;
+    text-align: center;
+}
+
+#info1{
+    font-family:sans-serif,serif,fantasy;
+    font-size: 40px;
+    margin:0 100px 10px 100px;
+    margin-bottom:10px;
+}
+
+#info2{
+    font-size:22px;
+    margin:0 400px 20px 400px; 
+    
+}
+
+#demo{
+    text-align:center;
+    background-color:#2c98c9;
+    display:inline-block;
+    width:150px;
+    height:25px;
+    border-radius: 10px;
+}
+#demo p{
+    height: 100%;
+    margin-top: 3px;
+}
+
+#data{
+    background-color: #21296e;
+    background-position:center;
+    height: 30vh;
+    color: white;
+    text-align: left;
+    font-size: 20px;
+    
+}
+
+#data pre{
+    margin:0px;
+    text-align: center;
+    height: 100%;
+}
+
+
+
+/* ----------------------------------------- Services --------------------------------------------*/
+
+#services{
+    height:125vh;
+    width:100%;
+    background-image:url(images/services.webp);
+    background-size: cover;
+    background-position: center;
+    position:absolute;
+    top:100%;
+    display:block;    
+}
+
+#backColor{
+    width:100%;
+    height :100%;
+    background:linear-gradient(rgba(0,0,0,0.6),#04617a);
+    position:absolute;
+}
+
+#features{
+    color: white;
+    height:center;
+    margin:50px 0px 20px 100px;
+    font-size:30px;
+
+}
+
+.font{
+    display: inline-block;
+    width:30%;
+    padding-left:22px;
+    padding-right:20px;
+    padding-bottom: 50px;
+}
+
+.font i{
+    color: orange;
+    
+    /* padding-left:15px; */
+    margin-bottom: 20px;
+}
+#boxes{
+    margin-left:5%;
+    
+}
+.box{
+    height:50%;
+    display: inline-block;
+    color: white;
+    width:80%;
+    padding-right:50px;
+    
+       
+}
+
+.box b{
+    margin-top:5px;
+    font-size:18px;
+}
+.box p{
+    color:#f0e1cc;
+    font-size: 13px;
+    margin-top:5px;
+    line-height:1.5;
+}
+
+.extra{
+    text-align: end;
+    font-size:2px;
+}
+
+.boarder{
+    border-right: 2px solid #f0e1cc;
+}
+
+
+/* ----------------------------------------Product tour-------------------------------------- */
+#product{
+
+    width:100%;
+    height :150vh;
+    background:linear-gradient(rgba(16, 15, 15, 0.6),#ebeced);
+    position:absolute;
+    top:225%;
+}
+
+#pt p{
+    
+    padding:3% 0 3%  0;
+    color:white;
+    font-size: 20px;
+    text-align: center;
+}
+
+#part1{
+    height :50%;
+    width: 100%;
+    position:relative;
+    /* display:contents; */
+    
+}
+
+#pt{
+    display:inline;
+}
+
+#prodout01 img{
+    display:inline-block;
+    padding:2%;
+    height:40vh;
+    width:70vw;
+    padding: 2% 0% 6% 0%;
+    margin:0% 15% 0 13%;
+    border-bottom: 2px solid white;
+    
+}
+
+#prodout02 img{
+    display:inline-block;
+    position: absolute;
+    top:0%;
+    padding:2%;
+    height:50vh;
+    width:50vw;
+    padding: 6% 0% 0% 0%;
+    margin:0% 25% 0% 24%;
+    
+}
+
+#part2{
+
+    height: 50%;
+}
+
+
+
+#vt{
+    display:inline-block;
+    border-radius: 10px;
+    width:150px;
+    padding:10px 50px 10px 50px;
+    margin:2% 30% 0 40%;
+    background-color: #42aaf5;
+    color:white;
+    text-align: center;
+    font-size: 30px;
+}
+
+#videos{
+    display:flex;
+    flex-direction: row;
+
+}
+
+#v1{
+    height:60vh;
+    width: 30%;
+}
+
+#video-container{
+    display: inline-block;
+    margin-top: 30px;
+    height: 45vh;
+    overflow-y: scroll;
+    padding: 0px 50px 0  100px;
+}
+
+#video-container iframe{
+    display: inline-block;
+    margin-bottom:20px;
+}
+
+#video-container::-webkit-scrollbar {
+    width: 10px; 
+}
+
+#video-container::-webkit-scrollbar-track {
+    background: #989996;
+}
+
+#video-container::-webkit-scrollbar-thumb {
+    background: #3d3d3d; 
+    border-radius: 10px;
+}
+
+#video-container::-webkit-scrollbar-thumb:hover {
+    background: #3d3d3d; 
+}
+
+
+#v2{
+    height: 60vh;
+    width:70%;
+}
+
+#v2 iframe{
+    height:45vh;
+    display: inline-block;
+    padding:30px;
+    margin: 0% 0 10% 5%;
+    border-radius: 50px;
+}
+
+
+/* ---------------------------------------reviews --------------------------------------------- */
+
+#reviews{
+    top:380%;
+    height:140vh;
+    width: 100%;
+    position:absolute;
+    /* background-color: gray; */
+}
+
+.view{
+    height:30%;
+}
+
+
+.fl{
+    display:flex;
+    flex-direction:row;
+
+}
+
+#above_line{
+    height: 10%;
+    /* width: 100%; */
+}
+
+#r11{
+    height:90%;
+    width:30vw;
+    border-right: 2px solid grey;
+}
+
+
+#great{
+    display:inline-block;
+    /* padding:30px; */
+    font-size: 25px;
+    padding: 0px 150px 30px 80px;
+}
+
+.view1{
+    padding-left:80px;
+}
+
+.space{
+    height: 30px;
+}
+
+#r12{
+    width:70vw;
+    
+}
+
+.ratings{
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+}
+
+.rating{
+    height:100%;
+    width:30%;
+}
+
+#overall p{
+    font-size: 70px;
+    text-align: center;
+}
+
+
+.rating i{
+    color: orange;
+    width:fit-content;
+    padding: 2px;
+}
+
+.stars{
+    display: flex;
+    justify-content: center;
+}
+
+.diffrev{
+    height:50%;
+    width:100%;
+}
+
+.diffrev p{
+    font-size: 20px;
+}
+#nullStar{
+    color: darkgray;
+}
+#r22{
+    display: flex;
+    flex-direction: row;
+}
+
+#r22Image{
+    height:18vh;
+    width:30%;
+    
+}
+
+#r22Image img{
+    height:70%;
+    width: 40%;
+    display: inline-block;
+    margin:10px 0px 10px 80px ;
+}
+
+#recommend{
+    height:18vh;
+    width:70%;
+    font-size: 30px;
+}
+
+#numbers-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width:100%;
+}
+
+#numbers{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+
+.num{
+    display: inline-block;
+    width: 60px; 
+    height: 50px; 
+    
+    text-align: center;
+    line-height: 50px; 
+    font-size: 20px;
+    color:#6c6e70;
+}
+
+#numbers-container::-webkit-scrollbar{
+    height:10px;
+}
+
+#numbers-container::-webkit-scrollbar-thumb{
+    background-color: #888;
+    border-radius: 5px;
+}
+
+#numbers-container::-webkit-scrollbar-thumb:hover{
+    background: #555;
+}
+
+#scrollbar-container {
+    width: 50%; 
+    overflow-x: auto; 
+    color: #eb9534;
+    background-color: #f0f0f0; 
+    height: 10px; 
+}
+
+#scrollbar {
+    width: 1000%;
+}
+
+#scrollbar-container::-webkit-scrollbar {
+    height: 10px;
+}
+
+#scrollbar-container::-webkit-scrollbar-thumb {
+    background-color:orange;
+    border-radius: 5px;
+}
+
+#scrollbar-container::-webkit-scrollbar-thumb:hover {
+    background:orange;
+}
+
+#review02{
+    display: flex;
+    flex-direction: row;
+}
+.r2images{
+    height: 100%;
+    width: 50%;
+
+}
+
+/* .r2images img{
+    height: 100%;
+    width: 100%;
+} */
+
+#kerala{
+    background-image:url(images/kerala.avif);
+    height: 100%;
+    width: 100%;
+}
+
+#goa{
+    background-image: url(images/goa.avif);
+    height: 100%;
+    width: 100%;
+}
+
+.kgdata{
+    height: 40%;
+    width: 40%;
+}
+
+#kdata{
+    display: inline-block;
+    margin:23% 0 0 60%;
+    color: white;
+    text-align: center;
+    background-color: rgba(79, 79, 77, 0.5);
+
+
+}
+
+.beach{
+    height:10% ;
+}
+
+.caseStudy{
+    color:white;
+    height:20%;
+    width:40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: orange;
+    
+}
+.caseStudy i{
+    color: rgb(124, 123, 122);
+    height: 100%;
+    display: flex;
+    width:20%;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.kgdata button{
+    margin-left: 30%;
+}
+#gdata{
+    display: inline-block;
+    margin:23% 60% 0 0;
+    color: white;
+    text-align: center;
+    background-color: rgba(79, 79, 77, 0.5);
+}
+
+#review03{
+    background-color:rgba(179, 173, 173, 0.5);
+    display: flex;
+    flex-direction: row;
+}
+
+#pic{
+    display: inline-block;
+    margin:3% 1% 3% 6%;
+    border-radius:50%;
+    height:70%;
+    width:15%;
+    background-color: yellow;
+    background-image: url("images/dickson kasenge.jpg");
+    background-size: cover;
+    
+}
+#pic img{
+   
+    object-fit: contain;
+    border-radius: 50%;
+}
+
+#picInfo{
+    width:80%;
+    color: grey;
+    display: inline-block;
+    margin:3% 6% 3% 1%;
+    font-size: 26px;
+
+}
+
+
+#savoy{
+    line-height: 2;
+    font-size: 20px;
+}
+
+#hotels{
+    display: flex;
+    flex-direction: row;
+    /* margin:3% 3% 3% 2%; */
+}
+
+#hotels img{
+    height: 10vh;
+    margin: 2%;
+}
+
+
+/* ------------------------------------footer ----------------------------------- */
+#footers{
+    position:absolute;
+    top:528%;
+    height: 60%;
+    width:100%;
+}
+
+#foot01{
+    height:80%;
+    width:100%;
+    background-color: #1c1b1b;
+    display: flex;
+    flex-direction: row;
+    color: white;
+}
+
+.foot01Info{
+    height: 80%;
+    width:33%;
+}
+
+.colo{
+    color: #2a4ac9;
+}
+
+#f11{
+    height: 80%;
+    padding:4% 5% 2% 5%;
+    
+}
+
+#f12{
+    height: 80%;
+    padding-top:12%;
+    padding-left:40%;
+}
+
+
+.contact{
+    display: inline-block;
+    padding-top:13%;
+    padding-bottom:5%;
+}
+
+
+
+#foot02{
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+}
+ 
+#copyright{
+    display:inline-block;
+    color: #6d6e6b;
+    padding:1% 0 0 5%;
+}
+
+#follow{
+    display: inline-block;
+    padding:1% 2% 0 40%;
+}
+
+#socialMedia{
+    display: inline-block;
+    
+}
+
+
+.fa-brands{
+    padding: 5px;
+    margin-right: 10px;
+    display: inline-block;
+    border-radius: 50%;
+    color:white;
+    font-weight: 400;
+    
+}
